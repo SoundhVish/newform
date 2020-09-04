@@ -1,0 +1,96 @@
+.MuiInputBase-formControl
+{
+    display:flex!important;
+}
+.MuiFormControl-root{
+display:flex !important;
+width:100%;
+flex-direction: row!important;
+padding-bottom:15px!important;
+}
+.MuiInputBase-root{
+display:inline!important;
+}
+    
+.MuiInput-formControl {
+    margin-left: 23px !important;
+    margin-top:0px !important;
+}
+
+.MuiInputBase-input
+{
+    padding:5px!important;    
+}
+.MuiOutlinedInput-root
+{
+    width:50%;
+}
+.row
+{
+    display:inline-flex!important;
+    flex-direction:column;
+}
+.row .MuiFormLabel-root
+{
+    width:130px!important;
+    margin-left:0px;
+}
+.row .MuiFormControl-root
+{
+    width:100px!important;
+}
+
+.MuiButton-contained
+{
+    background-color: #34C7CC!important;
+    color:white!important;
+    font-weight:700!important;
+    float:right;
+    margin-bottom:20px!important;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  margin-left: -5px;
+}
+.MuiInputBase-root:focus  .MuiOutlinedInput-input
+{
+    border-color: #34C7CC!important;
+    outline-color: black!important;
+    color:black!important;
+}
+
+/* Firefox */
+input[type=number] {
+  margin-left:-5px;
+}
+.title
+{
+    font-size:14px;
+    font-weight:800px!important;
+    padding-bottom:25px;
+}
+textarea:focus
+{
+    border-color:#34C7CC;
+    outline-color: #34C7CC;
+}
+.MuiFormLabel-root
+{
+    width:150px;
+    font-size:13px!important;
+}
+
+.Mui-focused
+{
+    color:black !important;
+    border-color:black!important;
+    outline-color: brown!important;
+}
+.MuiInput-underline:after
+{
+    border-bottom:2px solid black!important;
+}
+.desclabel
+{
+    width:130px!important;
+}

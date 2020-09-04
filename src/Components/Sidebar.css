@@ -1,0 +1,87 @@
+.MuiToolbar-regular
+{
+    background-color:white;
+    font-family:'Roboto';
+    color:black;
+}
+
+.brand
+{
+    height:20px;
+    width:100px;
+    margin-right:0px;
+    float:right;
+    margin-left:auto;
+}
+/* .MuiDrawer-paper
+{
+    background:linear-gradient(to bottom,#34CCC8,#2D95EE,#34CBC8);
+} */
+/* .MuiTypography-body1
+{
+    color:white;
+}
+.MuiSvgIcon-root
+{
+    color:white;
+} */
+
+.sidebar_img
+{
+    object-fit: cover;
+    max-height:150px;
+    padding:0px!important;
+    width:100%;
+}
+.sidebar_heading
+{
+    text-align:center;
+    font-weight:700!important;
+    padding:5px;
+    font-family:'Roboto';
+}
+.makeStyles-link-8:hover .MuiListItem-root
+{
+    cursor:pointer;
+    background-color:#34C7CC;
+    transition: color 100ms ease-out;
+    color:white;
+    font-family:'Roboto';
+}
+
+.makeStyles-link-8:hover .MuiSvgIcon-root
+{
+    color:white;
+}
+.MuiDrawer-paper::-webkit-scrollbar {
+    display: none;
+  }
+ 
+
+  .MuiListItemText-primary
+  {
+      font-weight:400!important;
+      font-size: 12px!important;
+      font-family:'Roboto';
+  }
+
+  .MuiSvgIcon-root
+  {
+      font-size:18px!important;
+  }
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .MuiDrawer-paper {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+  .Mui-selected  .MuiListItemText-primary
+  {
+      color:#34C7CC!important;
+      font-weight:700!important;
+  }
+  .Mui-selected   .MuiSvgIcon-root
+  {
+      color:#34C7CC!important;
+      font-weight:700!important;
+  }
